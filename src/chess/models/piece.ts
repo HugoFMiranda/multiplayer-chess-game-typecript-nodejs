@@ -1,4 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+import square from './square';
+
 class piece {
 
     id: number;
@@ -18,12 +21,15 @@ class piece {
         this.isAttacked = true;
     }
 
-    setPosition() {
-        
+    setPosition(square: square) {
+
     }
+
 
     getPosition() {
 
     }
 
 }
+
+export default piece;
